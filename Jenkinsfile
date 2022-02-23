@@ -3,7 +3,6 @@ pipeline {
     environment {
         PATH="/opt/maven/bin:$PATH"
     }    
-    
     stages {
         stage('SCM') {
             steps {
@@ -23,3 +22,5 @@ pipeline {
     }   
   }  
 }
+
+    
