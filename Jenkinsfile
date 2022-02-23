@@ -18,8 +18,8 @@ pipeline {
             steps {
                 git 'hi guys how are you'
             }
-        }   
-        }
+         }   
+       }
     }   
-    
+  }  
 }
