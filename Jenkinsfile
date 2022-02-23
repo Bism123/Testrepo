@@ -14,6 +14,11 @@ pipeline {
             steps {
                sh "mvn package"
             }
+         stage('hi') {
+            steps {
+                git 'hi guys how are you'
+            }
+        }   
         }
     }   
     
