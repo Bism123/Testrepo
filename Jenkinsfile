@@ -12,15 +12,9 @@ pipeline {
         stage('Maven') {
             steps {
                sh "mvn package"
-            }
-         stage('hi') {
-            steps {
-                git 'hi guys be cool'
-            }
-         }   
-       }
-    }   
-  }  
+            }   
+        }
+     }   
+   }  
+ }  
 }
-
-    
