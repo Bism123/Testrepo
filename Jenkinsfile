@@ -15,7 +15,7 @@ pipeline {
             }
          stage('hi') {
             steps {
-                git 'hi guys how are you'
+                git 'hi guys how do yo do'
             }
          }   
        }
